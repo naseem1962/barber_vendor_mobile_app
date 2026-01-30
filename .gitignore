@@ -1,0 +1,81 @@
+# Dependencies
+node_modules/
+
+# Yarn / pnp
+.pnp
+.pnp.js
+.yarn/cache
+.yarn/unplugged
+.yarn/install-state.gz
+.yarn/build-state.yml
+.pnp.*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Production / build output
+dist/
+build/
+.next/
+out/
+*.tsbuildinfo
+
+# Built APKs (mobile_apk folder kept; APK files ignored)
+mobile_apk/*.apk
+
+# Vite
+.vite/
+
+# Angular
+.angular/
+
+# React Native / Expo
+.expo/
+.expo-shared/
+web-build/
+
+# Vercel
+.vercel/
+
+# Parcel
+.parcel-cache/
+
+# Turbo
+.turbo/
+
+# Misc
+.DS_Store
+*.pem
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+ehthumbs.db
+
+# Certificates / keys
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
